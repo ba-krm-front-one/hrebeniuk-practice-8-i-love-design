@@ -16,8 +16,10 @@ body {
 .ba-header {
     background-color: #23232e;
     color: #fff;
-    z-index: 2;
     height: 865px;
+    width: 100%;
+    position: relative;
+    z-index: 2;
 }
 
 .ba-header #logotype{
@@ -51,9 +53,12 @@ body {
  }
 
 .ba-content {
-    background: url("../asset/bg.svg") no-repeat;
-    margin: 0 auto;
+    background-image: url("../asset/bg.svg"), none;
     background-size: cover;
+    width: 100%;
+    position: absolute;
+    top: 734px;
+    z-index: 1;
 }
 
 .ba-content #about {
@@ -61,7 +66,7 @@ body {
     margin: auto;
     font-size: 30px;
     line-height: 42px;
-    padding-top: 124px;
+    padding-top: 240px;
 }
 
 #about p:not(last-of-type) {

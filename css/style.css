@@ -1,0 +1,97 @@
+ * {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    color: #464b4f;
+    margin: auto;
+}
+
+.ba-header {
+    background-color: #23232e;
+    color: #fff;
+}
+
+.ba-header #logotype{
+    height: 134px;
+    margin-top: 80px;
+    margin-bottom: 125px;
+}
+
+#i-love-design, #what-i-do {
+    font-size: 80px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.ba-header-container {
+    width: 450px;
+    line-height: 30px;
+    margin: auto;
+    padding-top: 62px;
+}
+
+#ba-header-button img{
+    height: 45px;
+    margin-top: 85px;
+    margin-bottom: 50px;
+}
+
+.ba-content {
+    background: url("../asset/bg.svg") no-repeat;
+    margin: auto;
+    background-size: cover;
+}
+
+.ba-content #about {
+    width: 860px;
+    margin: auto;
+    font-size: 30px;
+    line-height: 42px;
+    padding-top: 124px;
+}
+
+#about p:not(last-of-type) {
+    padding-bottom: 55px;
+}
+
+#about p:last-of-type {
+    padding-bottom: 120px;
+}
+
+.ba-content-columns{
+    width: 950px;
+    margin: auto;
+    padding-bottom: 123px;
+    padding-top: 99px;
+    line-height: 30px;
+    text-align: left;
+    font-size: 0px;
+}
+.ba-content-columns h3{
+    font-size: 18px;
+    font-weight: 700;
+    padding-bottom: 27px;
+}
+
+.ba-content-columns p{
+    color: #888a8b;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.ba-content-columns article{
+    display: inline-block;
+    width: 30%;
+}
+
+ .ba-content-columns article:nth-child(2){
+     margin: 0 5%;
+ }

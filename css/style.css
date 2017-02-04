@@ -63,10 +63,10 @@ body {
 
 .ba-content #about {
     width: 860px;
-    margin: auto;
+    margin: 177px auto 0;
     font-size: 30px;
     line-height: 42px;
-    padding-top: 240px;
+    padding-top: 63px;
 }
 
 #about p:not(last-of-type) {
@@ -84,7 +84,7 @@ body {
     padding-top: 99px;
     line-height: 30px;
     text-align: left;
-    font-size: 0px;
+    font-size: 0;
 }
 .ba-content-columns h3{
     font-size: 18px;

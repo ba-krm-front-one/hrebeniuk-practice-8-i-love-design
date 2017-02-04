@@ -16,6 +16,8 @@ body {
 .ba-header {
     background-color: #23232e;
     color: #fff;
+    z-index: 2;
+    height: 865px;
 }
 
 .ba-header #logotype{
@@ -39,13 +41,18 @@ body {
 
 #ba-header-button img{
     height: 45px;
+    border-radius: 50%;
     margin-top: 85px;
     margin-bottom: 50px;
 }
 
+ #ba-header-button img:hover{
+     box-shadow: 0 0 25px rgba(255,0,0,0.5);
+ }
+
 .ba-content {
     background: url("../asset/bg.svg") no-repeat;
-    margin: auto;
+    margin: 0 auto;
     background-size: cover;
 }
 
